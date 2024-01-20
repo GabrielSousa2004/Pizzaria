@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#993333"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -20,11 +20,23 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#fff"
+      },
+      "package": "com.gabrielsousa.pizzaria"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2c1bc4ac-bf5b-45d9-971d-a7eead972cda"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/2c1bc4ac-bf5b-45d9-971d-a7eead972cda"
     }
   }
 }
